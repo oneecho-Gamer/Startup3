@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(50, 35, 149);
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 70px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.logo {
+    margin: 0;
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    background-color: transparent;
+    color: rgb(158, 27, 233);
+    transform: .3s;
+}
+
+button {
+    margin-left: 15px;
+    padding: 7px 14px;
+    color: white;
+    background-color:rgb(237, 61, 61) ;
+    border: 0;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: transform 0.3s;
+}
+button:hover {
+    transform: scale(1.2);
+
+
+    
+}
+div.win {
+    display: flex;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-top: 5%;
+
+}
+.overview {
+    padding-top: 2%;
+    max-width: 500px;
+}
+
+h1 {
+    color: white;
+    padding-bottom: 4%;
+
+}
+
+h2 {
+    margin-top: -80px;
+    margin-bottom: 6%;
+    font-size: x-large;
+}
+p {
+    color: white;
+    padding-bottom: 4%;
+}
+
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    width: 350px;
+    height: 460px;
+    margin-left: 80%;
+    margin-top: -38px;
+}
+ form {
+    align-content: center;
+ }
+
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+     border-radius: 15px;
+     margin-bottom: 9px;
+ }
+
+.terms-agreement {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.submit {
+    background-color: rgb(28, 97, 217);
+    padding: 9px 40% ;
+    margin-left: -5px;
+    margin-right: -8px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    
+}
+
+.submit:hover {
+    transform: none;
+}
+.twitter-login {
+    display: flex;
+    background-color: rgb(28, 97, 217);
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 55%;
+    margin-left: -0px;
+    padding: 9px ;
+    
+}
+.twitter-login:hover {
+    transform: none;
+}
+
